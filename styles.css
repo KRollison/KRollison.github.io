@@ -1,0 +1,51 @@
+html {
+    background-color: whitesmoke;
+}
+
+header {
+    text-align: center;
+    border: ridge red 20px;
+    border-radius: 50px;
+    background-color: gray;
+    margin: 0 auto;
+    font-weight: bold;
+    font-family: Cambria, Georgia, serif;
+    font-size: 25px;
+    color: white;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: Cambria, Georgia, serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 100px;
+    color: darkred;
+    border: grey groove 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+.table, th, td {
+    text-align: center;
+    margin: 0 auto;
+    border: solid 3px darkgrey;
+    padding: 0.5rem;
+    color: black;
+}
+
+td {
+    margin: 0 auto;
+}
+
+td:hover {
+    background-color: red;
+    color: whitesmoke;
+}
